@@ -9,7 +9,6 @@ public class Main {
         Perro perro = new Perro();
         Delfin delfin = new Delfin();
 
-        System.out.println("=============>");
         perro.alimentarse();
         perro.desplazarse();
         perro.dormir(30);
