@@ -12,7 +12,7 @@ public class Delfin implements Animal {
 
     @Override
     public void desplazarse() {
-        System.out.println("Nadando");
+        System.out.println("Nadando con sus aletas");
 
     }
 
