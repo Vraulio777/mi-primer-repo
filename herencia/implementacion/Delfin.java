@@ -6,16 +6,18 @@ public class Delfin implements Animal {
 
     @Override
     public boolean alimentarse() {
-        return false;
+        System.out.println("Alimentandose de crustaceos");
+        return true;
     }
 
     @Override
     public void desplazarse() {
+        System.out.println("Nadando");
 
     }
 
     @Override
     public void dormir(int minutos) {
-
+        System.out.println("Durmiendo nadando por "+minutos+" minutos");
     }
 }
