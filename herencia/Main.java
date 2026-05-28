@@ -1,7 +1,7 @@
-package meerkat.ops.eliminar;
+package herencia;
 
-import meerkat.ops.eliminar.implementacion.Delfin;
-import meerkat.ops.eliminar.implementacion.Perro;
+import herencia.implementacion.Delfin;
+import herencia.implementacion.Perro;
 
 public class Main {
 
@@ -9,7 +9,6 @@ public class Main {
         Perro perro = new Perro();
         Delfin delfin = new Delfin();
 
-        System.out.println("=============>");
         perro.alimentarse();
         perro.desplazarse();
         perro.dormir(30);

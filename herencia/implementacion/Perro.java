@@ -1,6 +1,6 @@
-package meerkat.ops.eliminar.implementacion;
+package herencia.implementacion;
 
-import meerkat.ops.eliminar.interfaces.Animal;
+import herencia.interfaces.Animal;
 
 public class Perro implements Animal {
 

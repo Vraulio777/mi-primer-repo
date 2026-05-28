@@ -1,4 +1,4 @@
-package meerkat.ops.eliminar.interfaces;
+package herencia.interfaces;
 
 public interface Animal {
 
